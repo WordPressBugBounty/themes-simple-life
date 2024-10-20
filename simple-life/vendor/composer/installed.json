@@ -1,0 +1,269 @@
+{
+    "packages": [
+        {
+            "name": "cweagans/composer-patches",
+            "version": "1.7.3",
+            "version_normalized": "1.7.3.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/cweagans/composer-patches.git",
+                "reference": "e190d4466fe2b103a55467dfa83fc2fecfcaf2db"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/cweagans/composer-patches/zipball/e190d4466fe2b103a55467dfa83fc2fecfcaf2db",
+                "reference": "e190d4466fe2b103a55467dfa83fc2fecfcaf2db",
+                "shasum": ""
+            },
+            "require": {
+                "composer-plugin-api": "^1.0 || ^2.0",
+                "php": ">=5.3.0"
+            },
+            "require-dev": {
+                "composer/composer": "~1.0 || ~2.0",
+                "phpunit/phpunit": "~4.6"
+            },
+            "time": "2022-12-20T22:53:13+00:00",
+            "type": "composer-plugin",
+            "extra": {
+                "class": "cweagans\\Composer\\Patches"
+            },
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "cweagans\\Composer\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Cameron Eagans",
+                    "email": "me@cweagans.net"
+                }
+            ],
+            "description": "Provides a way to patch Composer packages.",
+            "support": {
+                "issues": "https://github.com/cweagans/composer-patches/issues",
+                "source": "https://github.com/cweagans/composer-patches/tree/1.7.3"
+            },
+            "install-path": "../cweagans/composer-patches"
+        },
+        {
+            "name": "ernilambar/wp-admin-notice",
+            "version": "2.0.0",
+            "version_normalized": "2.0.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ernilambar/wp-admin-notice.git",
+                "reference": "ef71e83f6e82d3224783756426ddb209991e30cb"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ernilambar/wp-admin-notice/zipball/ef71e83f6e82d3224783756426ddb209991e30cb",
+                "reference": "ef71e83f6e82d3224783756426ddb209991e30cb",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.2.24"
+            },
+            "require-dev": {
+                "dealerdirect/phpcodesniffer-composer-installer": "^1.0",
+                "php-parallel-lint/php-parallel-lint": "^1.4",
+                "phpcompatibility/phpcompatibility-wp": "^2.1",
+                "roave/security-advisories": "dev-latest",
+                "wp-coding-standards/wpcs": "^3.1"
+            },
+            "time": "2024-07-26T10:24:55+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Nilambar\\AdminNotice\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Nilambar Sharma",
+                    "email": "nilambar@outlook.com",
+                    "homepage": "https://www.nilambar.net/"
+                }
+            ],
+            "description": "WordPress Helper for showing admin notice",
+            "homepage": "https://github.com/ernilambar/wp-admin-notice",
+            "keywords": [
+                "admin",
+                "notice",
+                "wordpress"
+            ],
+            "support": {
+                "issues": "https://github.com/ernilambar/wp-admin-notice/issues/",
+                "source": "https://github.com/ernilambar/wp-admin-notice/tree/2.0.0"
+            },
+            "install-path": "../ernilambar/wp-admin-notice"
+        },
+        {
+            "name": "ernilambar/wp-welcome",
+            "version": "2.0.2",
+            "version_normalized": "2.0.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ernilambar/wp-welcome.git",
+                "reference": "18e12741f799f60875e13fee454ee037694472e7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ernilambar/wp-welcome/zipball/18e12741f799f60875e13fee454ee037694472e7",
+                "reference": "18e12741f799f60875e13fee454ee037694472e7",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.2.24"
+            },
+            "require-dev": {
+                "dealerdirect/phpcodesniffer-composer-installer": "^1.0",
+                "php-parallel-lint/php-parallel-lint": "^1.3",
+                "phpcompatibility/phpcompatibility-wp": "^2.1",
+                "wp-coding-standards/wpcs": "^3.1"
+            },
+            "time": "2024-07-23T10:29:35+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Nilambar Sharma",
+                    "email": "nilambar@outlook.com",
+                    "homepage": "https://www.nilambar.net",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Create welcome page in WordPress",
+            "homepage": "https://github.com/ernilambar/wp-welcome",
+            "keywords": [
+                "plugin",
+                "theme",
+                "wordpress"
+            ],
+            "support": {
+                "issues": "https://github.com/ernilambar/wp-welcome/issues",
+                "source": "https://github.com/ernilambar/wp-welcome/tree/2.0.2"
+            },
+            "install-path": "../ernilambar/wp-welcome"
+        },
+        {
+            "name": "justintadlock/hybrid-breadcrumbs",
+            "version": "1.0.1",
+            "version_normalized": "1.0.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/justintadlock/hybrid-breadcrumbs.git",
+                "reference": "9e06be3b12ac3855b58f4c97f352c7916dd6f91b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/justintadlock/hybrid-breadcrumbs/zipball/9e06be3b12ac3855b58f4c97f352c7916dd6f91b",
+                "reference": "9e06be3b12ac3855b58f4c97f352c7916dd6f91b",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.6"
+            },
+            "time": "2018-10-23T19:57:54+00:00",
+            "type": "library",
+            "extra": {
+                "patches_applied": {
+                    "Fix typo": "patches/typo.patch"
+                }
+            },
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Hybrid\\Breadcrumbs\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Justin Tadlock",
+                    "email": "justintadlock@gmail.com",
+                    "homepage": "https://themehybrid.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "A powerful breadcrumb script for inclusion with WordPress themes.",
+            "homepage": "https://github.com/justintadlock/hybrid-breadcrumbs",
+            "keywords": [
+                "wordpress"
+            ],
+            "support": {
+                "forum": "https://themehybrid.com/board/topics",
+                "issues": "https://github.com/justintadlock/hybrid-breadcrumbs/issues",
+                "source": "https://github.com/justintadlock/hybrid-breadcrumbs/tree/master"
+            },
+            "install-path": "../justintadlock/hybrid-breadcrumbs"
+        },
+        {
+            "name": "wptt/webfont-loader",
+            "version": "v1.1.3",
+            "version_normalized": "1.1.3.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/WPTT/webfont-loader.git",
+                "reference": "19fa29ba8d82bed018fb8c6f949799739c61356c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/WPTT/webfont-loader/zipball/19fa29ba8d82bed018fb8c6f949799739c61356c",
+                "reference": "19fa29ba8d82bed018fb8c6f949799739c61356c",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.6"
+            },
+            "require-dev": {
+                "composer/installers": "~1.0",
+                "dealerdirect/phpcodesniffer-composer-installer": "^0.7.0",
+                "php-parallel-lint/php-parallel-lint": "^1.2",
+                "wptrt/wpthemereview": "^0.2.1"
+            },
+            "time": "2022-10-21T07:56:48+00:00",
+            "type": "package",
+            "installation-source": "dist",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Contributors",
+                    "homepage": "https://github.com/WPTT/font-loader/graphs/contributors"
+                }
+            ],
+            "description": "Locally host webfonts.",
+            "homepage": "https://github.com/WPTT/font-loader",
+            "keywords": [
+                "wordpress"
+            ],
+            "support": {
+                "issues": "https://github.com/WPTT/font-loader/issues",
+                "source": "https://github.com/WPTT/font-loader"
+            },
+            "install-path": "../wptt/webfont-loader"
+        }
+    ],
+    "dev": false,
+    "dev-package-names": []
+}

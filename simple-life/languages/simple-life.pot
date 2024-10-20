@@ -1,0 +1,406 @@
+# Copyright (C) 2024 Nilambar Sharma
+# This file is distributed under the GNU General Public License v3 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Simple Life 2.5.3\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/theme/simple-life\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.10.0\n"
+"X-Domain: simple-life\n"
+
+#. Theme Name of the theme
+#: style.css
+#: inc/theme-custom.php:293
+#: inc/welcome/welcome.php:17
+#: inc/welcome/welcome.php:18
+msgid "Simple Life"
+msgstr ""
+
+#. Theme URI of the theme
+#: style.css
+msgid "https://www.nilambar.net/2015/03/simple-life-free-wordpress-theme.html"
+msgstr ""
+
+#. Description of the theme
+#: style.css
+msgid "Simple Life is a simple, minimal and accessibility ready theme for your awesome WordPress website. It comes with a whole set of interesting, rich features and flexible theme customization. This theme is easily customizable with the Customizer feature of WordPress. It is also translation ready."
+msgstr ""
+
+#. Author of the theme
+#: style.css
+msgid "Nilambar Sharma"
+msgstr ""
+
+#. Author URI of the theme
+#: style.css
+msgid "https://www.nilambar.net/"
+msgstr ""
+
+#: 404.php:15
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: 404.php:19
+msgid "It looks like nothing was found at this location. Maybe try a search?"
+msgstr ""
+
+#. translators: 1: title.
+#: comments.php:32
+msgid "One thought on &ldquo;%1$s&rdquo;"
+msgstr ""
+
+#. translators: 1: comment count number, 2: title.
+#: comments.php:38
+msgctxt "comments title"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:47
+#: comments.php:64
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:48
+#: comments.php:65
+msgid "Older Comments"
+msgstr ""
+
+#: comments.php:49
+#: comments.php:66
+msgid "Newer Comments"
+msgstr ""
+
+#: comments.php:76
+msgid "Comments are closed."
+msgstr ""
+
+#: content-none.php:12
+msgid "Nothing Found"
+msgstr ""
+
+#. translators: 1: Link to WP admin new post page.
+#: content-none.php:21
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: content-none.php:27
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr ""
+
+#: content-none.php:32
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr ""
+
+#: content-page.php:25
+#: content-single.php:29
+#: content.php:71
+msgid "Pages:"
+msgstr ""
+
+#: content-page.php:31
+#: content-search.php:56
+#: content-single.php:52
+#: content.php:113
+msgid "Edit"
+msgstr ""
+
+#. translators: used between list items, there is a space after the comma.
+#: content-search.php:31
+#: content-search.php:42
+#: content-single.php:38
+#: content-single.php:41
+#: content.php:87
+#: content.php:98
+msgid ", "
+msgstr ""
+
+#: content-search.php:53
+#: content.php:110
+msgid "Leave a comment"
+msgstr ""
+
+#: content-search.php:53
+#: content.php:110
+msgid "1 Comment"
+msgstr ""
+
+#: content-search.php:53
+#: content.php:110
+msgid "% Comments"
+msgstr ""
+
+#: content.php:68
+msgid "Continue reading"
+msgstr ""
+
+#: footer.php:32
+#: functions.php:73
+msgid "Footer Menu"
+msgstr ""
+
+#: footer.php:52
+msgid "https://wordpress.org/"
+msgstr ""
+
+#. translators: %s: WordPress
+#: footer.php:55
+msgid "Proudly powered by %s"
+msgstr ""
+
+#. translators: 1: Theme name, 2: Theme author.
+#: footer.php:61
+msgid "Theme: %1$s by %2$s."
+msgstr ""
+
+#: functions.php:72
+#: header.php:48
+msgid "Primary Menu"
+msgstr ""
+
+#: functions.php:134
+msgid "Sidebar"
+msgstr ""
+
+#: functions.php:136
+msgid "Add widgets here to appear in your sidebar."
+msgstr ""
+
+#: functions.php:164
+msgid "expand menu"
+msgstr ""
+
+#: functions.php:165
+msgid "collapse menu"
+msgstr ""
+
+#: header.php:29
+msgid "Skip to content"
+msgstr ""
+
+#: inc/customizer.php:25
+msgid "Simple Life Options"
+msgstr ""
+
+#: inc/customizer.php:35
+msgid "Logo Options"
+msgstr ""
+
+#: inc/customizer.php:54
+msgid "Logo"
+msgstr ""
+
+#: inc/customizer.php:66
+msgid "General Options"
+msgstr ""
+
+#: inc/customizer.php:82
+msgid "Site Layout"
+msgstr ""
+
+#. Template Name of the theme
+#: inc/customizer.php:87
+msgid "Content-Sidebar"
+msgstr ""
+
+#. Template Name of the theme
+#: inc/customizer.php:88
+msgid "Sidebar-Content"
+msgstr ""
+
+#. Template Name of the theme
+#: inc/customizer.php:89
+msgid "Full Width"
+msgstr ""
+
+#: inc/customizer.php:102
+msgid "Content Layout"
+msgstr ""
+
+#: inc/customizer.php:107
+msgid "Full Post (with image)"
+msgstr ""
+
+#: inc/customizer.php:108
+msgid "Excerpt Only"
+msgstr ""
+
+#: inc/customizer.php:109
+msgid "Excerpt with thumbnail"
+msgstr ""
+
+#: inc/customizer.php:122
+msgid "Archive Image Size"
+msgstr ""
+
+#: inc/customizer.php:139
+msgid "Archive Image Alignment"
+msgstr ""
+
+#: inc/customizer.php:156
+msgid "Enable Breadcrumb"
+msgstr ""
+
+#: inc/customizer.php:165
+msgid "Blog Options"
+msgstr ""
+
+#: inc/customizer.php:182
+msgid "Read more text"
+msgstr ""
+
+#: inc/customizer.php:198
+msgid "Excerpt Length"
+msgstr ""
+
+#: inc/customizer.php:207
+msgid "Search Options"
+msgstr ""
+
+#: inc/customizer.php:223
+msgid "Search Placeholder"
+msgstr ""
+
+#: inc/customizer.php:232
+msgid "Pagination Options"
+msgstr ""
+
+#: inc/customizer.php:247
+msgid "Pagination Type"
+msgstr ""
+
+#: inc/customizer.php:252
+msgid "Default"
+msgstr ""
+
+#: inc/customizer.php:253
+msgid "Numeric"
+msgstr ""
+
+#: inc/customizer.php:260
+msgid "Footer Options"
+msgstr ""
+
+#: inc/customizer.php:277
+msgid "Copyright text"
+msgstr ""
+
+#: inc/customizer.php:292
+msgid "Show Powered By"
+msgstr ""
+
+#: inc/customizer.php:307
+msgid "Enable Go To Top"
+msgstr ""
+
+#: inc/helper.php:18
+msgctxt "Alignment"
+msgid "None"
+msgstr ""
+
+#: inc/helper.php:19
+msgctxt "Alignment"
+msgid "Left"
+msgstr ""
+
+#: inc/helper.php:20
+msgctxt "Alignment"
+msgid "Center"
+msgstr ""
+
+#: inc/helper.php:21
+msgctxt "Alignment"
+msgid "Right"
+msgstr ""
+
+#: inc/helper.php:46
+msgid "No Image"
+msgstr ""
+
+#: inc/helper.php:48
+msgid "Thumbnail"
+msgstr ""
+
+#: inc/helper.php:49
+msgid "Medium"
+msgstr ""
+
+#: inc/helper.php:50
+msgid "Large"
+msgstr ""
+
+#: inc/helper.php:51
+msgid "Full (original)"
+msgstr ""
+
+#. translators: %s: Column.
+#: inc/supports/footer-widgets.php:89
+msgid "Footer Column %d"
+msgstr ""
+
+#: inc/template-tags.php:27
+msgid "Previous page"
+msgstr ""
+
+#: inc/template-tags.php:28
+msgid "Next page"
+msgstr ""
+
+#: inc/template-tags.php:29
+msgid "Page"
+msgstr ""
+
+#: inc/template-tags.php:36
+msgid "Older posts"
+msgstr ""
+
+#: inc/template-tags.php:37
+msgid "Newer posts"
+msgstr ""
+
+#: inc/theme-custom.php:177
+msgid "Go to top"
+msgstr ""
+
+#: inc/theme-functions.php:55
+msgid "Read more"
+msgstr ""
+
+#: inc/theme-functions.php:56
+msgid "Search..."
+msgstr ""
+
+#: inc/theme-functions.php:60
+msgid "All rights reserved"
+msgstr ""
+
+#: inc/theme-functions.php:149
+msgid "Home"
+msgstr ""
+
+#. translators: %s: Version
+#: inc/welcome/welcome.php:20
+msgid "Version: %s"
+msgstr ""
+
+#. translators: %s: Search query.
+#: search.php:19
+msgid "Search Results for: %s"
+msgstr ""
+
+#: searchform.php:11
+msgctxt "label"
+msgid "Search for:"
+msgstr ""
+
+#: searchform.php:13
+msgctxt "submit button"
+msgid "Search"
+msgstr ""
